@@ -4,7 +4,8 @@ from datetime import timedelta, date
 """
 Assuming  you are running for today (2018-APR-18), 'Latest' partition will always be one day behind (2018-APR-17) 
 if the Pipeline Batch Run has not Failed .
-From My old utility, I just changed path and assume you are only looking for 'DWH' tables data/env/dev/output/dwh/
+I assume you are only looking for 'DWH' tables data/env/dev/output/dwh/. The Pattern for Prefix and 
+levels/depths  of "subbuckets" can be made as argument
 XX --> actual bucket name
 """
 
