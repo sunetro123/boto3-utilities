@@ -8,4 +8,5 @@ Requirement is to check if any Key exists for latest partition. Partition is def
       - How to use if-else-if-else in single line
       -Most important --> Syntax of boto3.client('s3).list_objects_v2 ( How to use delimiter)
       -How to use try-except-else in For loop
+#### Learning on Python try-except-else : A good article (https://shahriar.svbtle.com/the-possibly-forgotten-optional-else-in-python-try-statement)
 
